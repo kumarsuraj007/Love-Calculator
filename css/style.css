@@ -1,0 +1,97 @@
+body {
+  background-color: #ecf9ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 60px;
+  word-spacing: 5px;
+}
+
+button {
+  margin-top: 5%;
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fffbeb;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+
+button:hover {
+  background-color: #ffe7cc;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input {
+  padding-left: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 25rem;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  border: none;
+}
+
+.top-container {
+  margin: 0 auto 0 auto;
+}
+
+.center-container {
+  margin: 8% auto 0 auto;
+}
+
+.copyright {
+  margin: 10% auto 0 auto;
+}
+
+#message {
+  margin: 5% auto 0 auto;
+  font-size: 40px;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 40px;
+    word-spacing: 5px;
+    line-height: 4rem;
+  }
+
+  input {
+    padding-left: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 20rem;
+    border-radius: 10px;
+  }
+
+  .top-container {
+    margin: 0 auto 0 auto;
+  }
+
+  .center-container {
+    margin: 20% auto 0 auto;
+  }
+
+  .copyright {
+    margin: 40% auto 0 auto;
+  }
+
+  #message {
+    margin: 15% auto 0 auto;
+    font-size: 25px;
+  }
+}
